@@ -39,4 +39,18 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+img {
+  display: block;
+  object-position: center;
+  object-fit: cover;
+  inline-size: 100%;
+  block-size: 100%;
 }

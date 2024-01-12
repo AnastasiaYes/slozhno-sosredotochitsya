@@ -4,9 +4,33 @@
   переключая тему
 */
 
+:root.theme-dark {
+    /* Дублируем переменные для тёмной темы */
+    --accent-color: #ff0070;
+    --title-color: #DB00FF;
+    --main-color-text: #F1B2CE;
+    --bg-color: #000028;
+}
+
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+    /* сохраните этот селектор в приведённом виде.
+      Так стили написанные ниже будут иметь больший вес,
+      чем стили в медиазапросе предпочтений пользователя
+    */
+}
+
+.theme-dark {
+    /* сохраните этот селектор в приведённом виде.
+      Так стили написанные ниже будут иметь больший вес,
+      чем стили в медиазапросе предпочтений пользователя
+    */
+    background-color: var(--bg-color);
+    font-family: var(--main-text, monospace);
+    background-image: url("../images/cover-image-dark.png");
+    color: var(--main-color-text);
+}
+
+.theme_light .theme-dark{
+    color: var(--accent-color-text);
+    background-color: var(--accent-color);
 }
