@@ -82,12 +82,12 @@
 }
 
 .rec::before {
-    content: 'rec';
+    content: var(--rec-content-before);
     color: var(--accent-color);
 }
 
 .rec::after {
-    content: '';
+    content: var(--rec-content-after);
     display: inline-block;
     inline-size: 9px;
     block-size: 9px;

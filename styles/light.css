@@ -16,7 +16,10 @@
     --accent-color-text: #353430;
     --bg-color: #FFC2E6;
     --bg-image: url("../images/cover-image-light.png");
+    --rec-content-before: none;
+    --rec-content-after: none;
 }
+
 :root {
     /* Переменные светлой темы */
     --accent-color: #FF8DCB;
@@ -25,12 +28,6 @@
     --accent-color-text: #353430;
     --bg-color: #FFC2E6;
     --bg-image: url("../images/cover-image-light.png");
-}
-
-.theme_light .rec::before {
-    content: none;
-}
-
-.theme_light .rec::after {
-    content: none;
+    --rec-content-before: none;
+    --rec-content-after: none;
 }
