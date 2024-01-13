@@ -42,6 +42,11 @@ a {
   cursor: pointer;
 }
 
+button:focus,
+a:focus {
+  outline: none;
+}
+
 button {
   background-color: transparent;
   border: none;
