@@ -152,7 +152,7 @@
     margin-block-end: 20px;
 }
 
-.article-list.even{
+.article-list.even {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -162,7 +162,7 @@
     margin-block-end: 20px;
 }
 
-.article-list li:last-of-type{
+.article-list li:last-of-type {
     padding-bottom: clamp(3.125rem, 1.33578rem + 7.634vw, 5rem);
 }
 .title-decor {
