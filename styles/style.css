@@ -22,7 +22,7 @@
     position: relative;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: 1fr min-content 1fr;
 }
 
 .header__theme-menu-list {

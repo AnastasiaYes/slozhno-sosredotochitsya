@@ -18,12 +18,15 @@
     --rec-content-before: 'rec';
     --rec-content-after: '';
 }
-:root {
-    /* Дублируем переменные для тёмной темы */
-    --accent-color: #ff0070;
-    --title-color: #DB00FF;
-    --main-color-text: #F1B2CE;
-    --bg-color: #000028;
-    --rec-content-before: 'rec';
-    --rec-content-after: '';
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Дублируем переменные для тёмной темы */
+        --accent-color: #ff0070;
+        --title-color: #DB00FF;
+        --main-color-text: #F1B2CE;
+        --bg-color: #000028;
+        --rec-content-before: 'rec';
+        --rec-content-after: '';
+    }
 }

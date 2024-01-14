@@ -20,14 +20,16 @@
     --rec-content-after: none;
 }
 
-:root {
-    /* Переменные светлой темы */
-    --accent-color: #FF8DCB;
-    --title-color: #FFC2E6;
-    --main-color-text: #353430;
-    --accent-color-text: #353430;
-    --bg-color: #FFC2E6;
-    --bg-image: url("../images/cover-image-light.png");
-    --rec-content-before: none;
-    --rec-content-after: none;
+@media (prefers-color-scheme: light) {
+    :root {
+        /* Переменные светлой темы */
+        --accent-color: #FF8DCB;
+        --title-color: #FFC2E6;
+        --main-color-text: #353430;
+        --accent-color-text: #353430;
+        --bg-color: #FFC2E6;
+        --bg-image: url("../images/cover-image-light.png");
+        --rec-content-before: none;
+        --rec-content-after: none;
+    }
 }
