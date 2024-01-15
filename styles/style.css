@@ -263,11 +263,11 @@
 @media (max-width: 480px) {
 
     .header__theme-menu-list {
-        padding-top: 100px;
+        padding-top: 80px;
     }
 
     .header__title {
-        padding: 0;
+        padding-top: 20px;
         margin-block-end: 60px;
     }
 
