@@ -107,6 +107,7 @@
     text-shadow: 4px 4px 0px var(--accent-color);
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     justify-self: start;
+    align-self: center;
     margin-left: -15px;
 }
 
@@ -118,6 +119,7 @@
     max-width: 50%;
     font-weight: 700;
     justify-self: end;
+    align-self: start;
     margin-block-end: 116px;
 }
 
@@ -234,6 +236,7 @@
     .header__title {
         font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
         padding: 144px 0 135px;
+        line-height: 0.84;
     }
 
     .header__text {
@@ -259,8 +262,18 @@
 
 @media (max-width: 480px) {
 
+    .header__theme-menu-list {
+        padding-top: 100px;
+    }
+
+    .header__title {
+        padding: 0;
+        margin-block-end: 60px;
+    }
+
     .header__text {
         max-width: 100%;
+        margin-block-end: 60px;
     }
 
     .section__content.odd {
