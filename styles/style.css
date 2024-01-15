@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr min-content 1fr;
+    padding: clamp(10px, 2%, 20px);
 }
 
 .header__theme-menu-list {
@@ -106,7 +107,7 @@
     text-shadow: 4px 4px 0px var(--accent-color);
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     justify-self: start;
-    margin-left: 0;
+    margin-left: -15px;
 }
 
 .header__text {
@@ -253,12 +254,6 @@
     .footer__title {
         font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
         padding-block: 450px;
-    }
-}
-
-@media (min-width: 321px) and (max-width: 767px) {
-    .header {
-        padding: calc(20px - 10px * (100vw - 768px) / (768px - 320px));
     }
 }
 
