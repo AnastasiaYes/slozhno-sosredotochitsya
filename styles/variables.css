@@ -1,16 +1,12 @@
-
-/*Не совсем поняла, что сюда надо писать,*/
-/*просто перечень всех переменные, если да, то зачем нам*/
-/*этот файл, если мы и так все эти переменные дублируем в темной и светлой теме*/
-
 :root {
-    --accent-color: #ff0070;
-    --hover-color: 255, 0, 112;
-    --title-color: #DB00FF;
     --main-color-text: #F1B2CE;
-    --accent-color-text: #000028;
+    --main-font:  'IBM Plex Mono';
+    --title-color: #DB00FF;
+    --accent-color: #ff0070;
+    --decor-color: #ff0070;
+    --hover-color: 255, 0, 112;
     --bg-color: #000028;
+    --accent-color-text: #000028;
     --alpha: 0.4;
-    --main-text:  'IBM Plex Mono';
 }
 

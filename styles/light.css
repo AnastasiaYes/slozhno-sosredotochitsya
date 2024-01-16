@@ -1,12 +1,10 @@
-
-/*Правильно ли так писать или надо отставить только что-то одно,*/
-/*зачем писать переменные и в .page.theme_light и в медиа-запросе root*/
-
 .page.theme_light {
-    --accent-color: #FF8DCB;
-    --title-color: #FFC2E6;
     --main-color-text: #353430;
+    --title-color: #FFC2E6;
+    --accent-color: #FF8DCB;
     --accent-color-text: #353430;
+    --hover-color: 50, 49, 45;
+    --decor-color: #353430;
     --bg-color: #FFC2E6;
     --bg-image: url("../images/cover-image-light.png");
     --rec-content-before: none;
@@ -15,10 +13,12 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --accent-color: #FF8DCB;
-        --title-color: #FFC2E6;
         --main-color-text: #353430;
+        --title-color: #FFC2E6;
+        --accent-color: #FF8DCB;
         --accent-color-text: #353430;
+        --hover-color: 50, 49, 45;
+        --decor-color: #353430;
         --bg-color: #FFC2E6;
         --bg-image: url("../images/cover-image-light.png");
         --rec-content-before: none;

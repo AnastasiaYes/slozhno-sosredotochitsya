@@ -50,6 +50,7 @@ a:focus {
 button {
   background-color: transparent;
   border: none;
+  appearance: none;
 }
 
 img {
