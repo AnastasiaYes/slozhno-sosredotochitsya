@@ -5,7 +5,7 @@
 
     max-inline-size: 1024px;
     margin-inline: auto;
-    /*background-color: var(--bg-color);*/
+    background-color: var(--bg-color);
     font-family: var(--main-font, monospace);
     background-attachment: fixed;
     background-image: var(--bg-image);
