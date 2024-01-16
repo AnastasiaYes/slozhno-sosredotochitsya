@@ -1,6 +1,7 @@
 .page.theme_light {
     --main-color-text: #353430;
     --title-color: #FFC2E6;
+    --title-text-shadow: #ff0070;
     --accent-color: #FF8DCB;
     --accent-color-text: #353430;
     --hover-color: 50, 49, 45;
