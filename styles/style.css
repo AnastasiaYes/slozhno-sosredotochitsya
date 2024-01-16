@@ -143,6 +143,10 @@
     outline: 1px solid currentColor;
 }
 
+.limited-width {
+    max-width: 320px;
+}
+
 .section__content.odd {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -170,6 +174,7 @@
 .article-list li:last-of-type {
     padding-bottom: clamp(3.125rem, 1.33578rem + 7.634vw, 5rem);
 }
+
 .title-decor {
     color: var(--accent-color-text);
     background-color: var(--accent-color);
@@ -248,6 +253,10 @@
         align-items: flex-end;
     }
 
+    .limited-width {
+        max-width: 228px;
+    }
+
     .article-list.even {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -271,6 +280,10 @@
     .decorated-zone::after {
         bottom: 10px;
         left: 10px;
+    }
+
+    .limited-width {
+        max-width: 100%;
     }
 
     .section__content.odd {
