@@ -6,6 +6,7 @@
     --decor-color: #ff0070;
     --hover-color: 255, 0, 112;
     --bg-color: #000028;
+    --bg-image: url("../images/cover-image-dark.png");
     --accent-color-text: #000028;
     --alpha: 0.4;
 }
