@@ -282,6 +282,10 @@
 
 @media (max-width: 480px) {
 
+    .header__title {
+        margin-inline-start: 0;
+    }
+
     .header__text {
         max-width: 100%;
     }
@@ -296,12 +300,17 @@
         left: 10px;
     }
 
+    .section__content-title {
+        margin-block-end: 23px;
+    }
+
     .limited-width {
         max-width: 100%;
     }
 
     .section__content.odd {
         grid-template-columns: 1fr;
+        gap: 2px;
     }
 
     .gallery-list {
