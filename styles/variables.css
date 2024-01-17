@@ -9,5 +9,7 @@
     --bg-image: url("../images/cover-image-dark.png");
     --accent-color-text: #000028;
     --alpha: 0.4;
+    --rec-content-before: 'rec';
+    --rec-content-after: '';
 }
 
