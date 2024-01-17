@@ -244,6 +244,10 @@
         line-height: 0.84;
     }
 
+    .header__text {
+        margin-block-end: 0;
+    }
+
     .header__theme-menu {
         align-self: center;
     }
@@ -258,9 +262,17 @@
         max-width: 228px;
     }
 
+    .section__content.odd {
+        gap: 22px;
+    }
+
     .article-list.even {
         grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
+        gap: 0;
+    }
+
+    .gallery-list {
+        margin-block-start: 26px;
     }
 
     .footer__title {
