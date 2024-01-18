@@ -235,6 +235,8 @@
 
 @media (max-width: 768px) {
     .header__theme-menu-list {
+        flex-direction: column;
+        align-items: flex-end;
         gap: 13px;
     }
 
@@ -244,11 +246,6 @@
 
     .header__theme-menu {
         align-self: center;
-    }
-
-    .header__theme-menu-list {
-        flex-direction: column;
-        align-items: flex-end;
     }
 
     .limited-width {
